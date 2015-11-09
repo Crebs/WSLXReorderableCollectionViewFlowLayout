@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231A595A1BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 231A59591BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		231A59611BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231A59561BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.framework */; };
+		231A59661BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 231A59651BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.m */; };
+		231A59731BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 231A59711BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		231A59741BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 231A59721BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231A59621BF1367900331B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231A594D1BF1367900331B18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231A59551BF1367900331B18;
+			remoteInfo = WSLXReorderableCollectionViewFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231A59561BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSLXReorderableCollectionViewFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231A59591BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		231A595B1BF1367900331B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231A59601BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSLXReorderableCollectionViewFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231A59651BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLXReorderableCollectionViewFlowLayoutTests.m; sourceTree = "<group>"; };
+		231A59671BF1367900331B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231A59711BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		231A59721BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231A59521BF1367900331B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231A595D1BF1367900331B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231A59611BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231A594C1BF1367900331B18 = {
+			isa = PBXGroup;
+			children = (
+				231A59581BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout */,
+				231A59641BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests */,
+				231A59571BF1367900331B18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231A59571BF1367900331B18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231A59561BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.framework */,
+				231A59601BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231A59581BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				231A59591BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.h */,
+				231A595B1BF1367900331B18 /* Info.plist */,
+				231A59701BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout */,
+			);
+			path = WSLXReorderableCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		231A59641BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				231A59651BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.m */,
+				231A59671BF1367900331B18 /* Info.plist */,
+			);
+			path = WSLXReorderableCollectionViewFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+		231A59701BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				231A59711BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.h */,
+				231A59721BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.m */,
+			);
+			path = LXReorderableCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		231A59531BF1367900331B18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231A595A1BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.h in Headers */,
+				231A59731BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		231A59551BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231A596A1BF1367900331B18 /* Build configuration list for PBXNativeTarget "WSLXReorderableCollectionViewFlowLayout" */;
+			buildPhases = (
+				231A59511BF1367900331B18 /* Sources */,
+				231A59521BF1367900331B18 /* Frameworks */,
+				231A59531BF1367900331B18 /* Headers */,
+				231A59541BF1367900331B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLXReorderableCollectionViewFlowLayout;
+			productName = WSLXReorderableCollectionViewFlowLayout;
+			productReference = 231A59561BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		231A595F1BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231A596D1BF1367900331B18 /* Build configuration list for PBXNativeTarget "WSLXReorderableCollectionViewFlowLayoutTests" */;
+			buildPhases = (
+				231A595C1BF1367900331B18 /* Sources */,
+				231A595D1BF1367900331B18 /* Frameworks */,
+				231A595E1BF1367900331B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231A59631BF1367900331B18 /* PBXTargetDependency */,
+			);
+			name = WSLXReorderableCollectionViewFlowLayoutTests;
+			productName = WSLXReorderableCollectionViewFlowLayoutTests;
+			productReference = 231A59601BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231A594D1BF1367900331B18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Incravo;
+				TargetAttributes = {
+					231A59551BF1367900331B18 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					231A595F1BF1367900331B18 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 231A59501BF1367900331B18 /* Build configuration list for PBXProject "WSLXReorderableCollectionViewFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 231A594C1BF1367900331B18;
+			productRefGroup = 231A59571BF1367900331B18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231A59551BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout */,
+				231A595F1BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231A59541BF1367900331B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231A595E1BF1367900331B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231A59511BF1367900331B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231A59741BF1369C00331B18 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231A595C1BF1367900331B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231A59661BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		231A59631BF1367900331B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231A59551BF1367900331B18 /* WSLXReorderableCollectionViewFlowLayout */;
+			targetProxy = 231A59621BF1367900331B18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		231A59681BF1367900331B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		231A59691BF1367900331B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		231A596B1BF1367900331B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WSLXReorderableCollectionViewFlowLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSLXReorderableCollectionViewFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		231A596C1BF1367900331B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WSLXReorderableCollectionViewFlowLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSLXReorderableCollectionViewFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		231A596E1BF1367900331B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSLXReorderableCollectionViewFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSLXReorderableCollectionViewFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		231A596F1BF1367900331B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSLXReorderableCollectionViewFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.WellSpent.WSLXReorderableCollectionViewFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231A59501BF1367900331B18 /* Build configuration list for PBXProject "WSLXReorderableCollectionViewFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231A59681BF1367900331B18 /* Debug */,
+				231A59691BF1367900331B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231A596A1BF1367900331B18 /* Build configuration list for PBXNativeTarget "WSLXReorderableCollectionViewFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231A596B1BF1367900331B18 /* Debug */,
+				231A596C1BF1367900331B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		231A596D1BF1367900331B18 /* Build configuration list for PBXNativeTarget "WSLXReorderableCollectionViewFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231A596E1BF1367900331B18 /* Debug */,
+				231A596F1BF1367900331B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231A594D1BF1367900331B18 /* Project object */;
+}
